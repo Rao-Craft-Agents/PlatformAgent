@@ -1,0 +1,19 @@
+{
+  "name": "Platform",
+  "tagline": "An iOS + macOS app's platform layer: Info keys, URL schemes, entitlements, the app delegate, menu commands and app extensions.",
+  "category": "developer",
+  "keywords": [
+    "swift",
+    "xcode",
+    "entitlements",
+    "info.plist",
+    "url schemes",
+    "app extensions",
+    "macos menus",
+    "granite"
+  ],
+  "platforms": [
+    "macOS 14"
+  ],
+  "license": "MIT"
+}

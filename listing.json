@@ -1,9 +1,0 @@
-{
-  "name": "Platform",
-  "tagline": "An iOS + macOS app's platform layer: Info keys, URL schemes, entitlements, the app delegate, menu commands and app extensions.",
-  "category": "developer",
-  "keywords": ["swift", "xcode", "entitlements", "info.plist", "url schemes", "app extensions", "macos menus", "granite"],
-  "platforms": ["macOS 14"],
-  "license": "MIT",
-  "description": "The platform layer of an iOS + macOS app, done by editing its Xcode project. Say `camera: \"takes photos of the dishes you cook\"`, `schemes: [\"recipes\"]`, `sandbox: [\"network\", \"files\"]`, `New Recipe ⌘N` or `action SaveRecipe \"Save to Recipes\" accepts url,image`; Platform sets the Info keys on the targets they apply to, merges URL schemes and App Transport Security into each platform's Info.plist, writes the entitlements and keeps Xcode's sandbox settings agreeing with them, and writes the app delegate, the menu commands and the views' `.onOpenAppURL`, `.onAppCommand` and `.onSharedInbox`.\n\nAn app extension becomes a target embedded in the iOS app, sharing an app group with it: its view controller leaves what was shared in the group and opens the app, which takes it from its inbox.\n\nNo model is asked. Every edit looks before it adds, so the same call twice writes nothing and a call with new keys adds only those. A request it cannot do is refused with every reason at once, and nothing is written until the edited project reads back whole and every Swift file parses.\n\nOne of the Rao Craft Agents: independent packages that, tagged in prompts along the life of a project, build an app of Loom's quality."
-}
