@@ -1,5 +1,5 @@
 {
-  "originHash" : "c1f4815f01cb0eaa2bdf91e074c44aa7e6df2bf356c51e81d9905a7e7bf70f88",
+  "originHash" : "3a3991601a5fd6ea40b07388c6b3654950314f1f11e556d9c0485d38c5f0c8ee",
   "pins" : [
     {
       "identity" : "granite",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/riteshpakala/Granite.git",
       "state" : {
         "branch" : "main",
-        "revision" : "deb19149d3e45f96f2f34f074d159c1adee17417"
+        "revision" : "193a2d9627198252eeeaf093598db75de90da20c"
       }
     }
   ],
